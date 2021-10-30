@@ -12,6 +12,7 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -118,16 +119,22 @@
             </ul>
 
             <div class="card">
-                <div class="card-header">Featured</div>
+                <div class="card-header">Funciones</div>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
+                    <h5 class="card-title">
+                        Este recuadro es para generar una funcionalidad
+                    </h5>
                     <p class="card-text">
-                        With supporting text below as a natural lead-in to
-                        additional content.
+                        Haciendo click en el boton preseleccionado se crea una
+                        nueva seccion desde JS
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary" id="buttonCreator"
+                        >Go somewhere</a
+                    >
                 </div>
             </div>
+            <div id="newSection" class="mt-5"></div>
         </div>
+        <script src="./asssets/js/main.js"></script>
     </body>
 </html>
